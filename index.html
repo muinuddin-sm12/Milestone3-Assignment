@@ -14,7 +14,7 @@
 <body class="">
     <header>
         <!-- Navbar -->
-        <div class="container px-6 lg:20">
+        <div class="container px-4 lg:px-20 mb-4 lg:mb-8">
             <div class="navbar p-0 flex justify-between">
                 <div class="navbar-start w-auto mx-0">
                   <div class="dropdown flex lg:hidden">
@@ -48,7 +48,30 @@
                   </button>
                   <button class="text-lg lg:text-xl text-white py-2 px-4 font-bold bg-[#FF4240] rounded-lg">Get Ticket</button>
                 </div>
-              </div>
+            </div>
+        </div>
+        <!-- Banner section -->
+        <div class="container px-4 lg:px-20 relative">
+            <div class="carousel">
+                <div id="slide1" class="carousel-item relative w-full ">
+                  <img src="./Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full ">
+                  <img src="./Images/4.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+            </div>
+            <div class="max-w-[552px] bg-[#131318] rounded-xl p-4 lg:p-8 lg:absolute right-0 lg:right-[116px] bottom-0 lg:bottom-10">
+                <h3 class="text-lg lg:text-3xl text-white font-extrabold mb-2">Meet all the heroes from the field</h3>
+                <p class="text-sm lg:text-base font-medium text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
         </div>
 
     </header>
